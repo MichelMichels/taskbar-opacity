@@ -1,0 +1,11 @@
+C:\Users\Michel\Source\Repos\taskbar-opacity\Program\ProgramGUI\bin\Debug\ProgramGUI.exe.config
+C:\Users\Michel\Source\Repos\taskbar-opacity\Program\ProgramGUI\bin\Debug\ProgramGUI.exe
+C:\Users\Michel\Source\Repos\taskbar-opacity\Program\ProgramGUI\bin\Debug\ProgramGUI.pdb
+C:\Users\Michel\Source\Repos\taskbar-opacity\Program\ProgramGUI\obj\Debug\ProgramGUI.csprojResolveAssemblyReference.cache
+C:\Users\Michel\Source\Repos\taskbar-opacity\Program\ProgramGUI\obj\Debug\ProgramGUI.Form1.resources
+C:\Users\Michel\Source\Repos\taskbar-opacity\Program\ProgramGUI\obj\Debug\ProgramGUI.Properties.Resources.resources
+C:\Users\Michel\Source\Repos\taskbar-opacity\Program\ProgramGUI\obj\Debug\ProgramGUI.csproj.GenerateResource.Cache
+C:\Users\Michel\Source\Repos\taskbar-opacity\Program\ProgramGUI\obj\Debug\ProgramGUI.exe
+C:\Users\Michel\Source\Repos\taskbar-opacity\Program\ProgramGUI\obj\Debug\ProgramGUI.pdb
+C:\Users\Michel\Source\Repos\taskbar-opacity\Program\ProgramGUI\bin\Debug\LogicImplemenation.dll
+C:\Users\Michel\Source\Repos\taskbar-opacity\Program\ProgramGUI\bin\Debug\LogicImplemenation.pdb
