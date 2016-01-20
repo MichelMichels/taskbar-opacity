@@ -59,19 +59,29 @@ namespace LogicImplementation
          * Methods
          */
 
-        public bool enableTransparentTaskbar()
+        public bool SetTaskbarInvalid()
         {
-            // debug
-            Console.WriteLine("EnableTransparentTaskbar executing...");
-            
             // Set the accent
             var accent = new AccentPolicy();
             accent.AccentState = AccentState.ACCENT_INVALID_STATE;
-            var accentStructSize = Marshal.SizeOf(accent);
+            
+            if(UpdateTaskbar(accent))
+            {
+                return true;
+            } else
+            {
+                return false;
+            }
+        }
 
+        private bool UpdateTaskbar(AccentPolicy accent)
+        {
+            // Get size of struct
+            var accentStructSize = Marshal.SizeOf(accent);
             var accentPtr = Marshal.AllocHGlobal(accentStructSize);
             Marshal.StructureToPtr(accent, accentPtr, false);
 
+            // Construct data parameter
             var data = new WindowCompositionAttributeData();
             data.Attribute = WindowCompositionAttribute.WCA_ACCENT_POLICY;
             data.SizeOfData = accentStructSize;
@@ -94,7 +104,9 @@ namespace LogicImplementation
                         Console.WriteLine("Succeeded");
                         Marshal.FreeHGlobal(accentPtr);
                         return true;
-                    } else {
+                    }
+                    else
+                    {
                         return false;
                     }
                 }

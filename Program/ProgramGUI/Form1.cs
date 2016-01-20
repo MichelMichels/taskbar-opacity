@@ -29,7 +29,9 @@ namespace ProgramGUI
 
         private void enableTransparentButton_Click(object sender, EventArgs e)
         {
-            logic.enableTransparentTaskbar();           
+            if (logic.SetTaskbarInvalid()) {
+                enableTransparentButton.BackColor = Color.Green;
+            }
         }
     }
 }
