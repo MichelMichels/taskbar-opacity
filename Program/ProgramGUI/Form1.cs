@@ -20,6 +20,8 @@ namespace ProgramGUI
         public Form1()
         {
             InitializeComponent();
+
+            logic.UpdateParameters();
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
@@ -27,11 +29,39 @@ namespace ProgramGUI
 
         }
 
-        private void enableTransparentButton_Click(object sender, EventArgs e)
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-            if (logic.SetTaskbarInvalid()) {
-                enableTransparentButton.BackColor = Color.Green;
-            }
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void enableTransparencyButton_Click(object sender, EventArgs e)
+        {
+            logic.SetTaskbarInvalid();
+        }
+
+        private void gradientButton_Click(object sender, EventArgs e)
+        {
+            logic.SetTaskBarGradient();
+        }
+
+        private void transparentGradientButton_Click(object sender, EventArgs e)
+        {
+            logic.SetTaskBarTransparentGradient();
+        }
+
+        private void disabledButton_Click(object sender, EventArgs e)
+        {
+            logic.SetTaskBarDisabled();
+        }
+
+        private void blurButton_Click(object sender, EventArgs e)
+        {
+            logic.SetTaskBarBlur();
         }
     }
 }

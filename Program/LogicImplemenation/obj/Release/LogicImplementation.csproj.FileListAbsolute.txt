@@ -1,5 +1,4 @@
 C:\Users\Michel\Source\Repos\taskbar-opacity\Program\LogicImplemenation\bin\Release\LogicImplemenation.dll
 C:\Users\Michel\Source\Repos\taskbar-opacity\Program\LogicImplemenation\bin\Release\LogicImplemenation.pdb
-C:\Users\Michel\Source\Repos\taskbar-opacity\Program\LogicImplemenation\obj\Release\LogicImplementation.csprojResolveAssemblyReference.cache
 C:\Users\Michel\Source\Repos\taskbar-opacity\Program\LogicImplemenation\obj\Release\LogicImplemenation.dll
 C:\Users\Michel\Source\Repos\taskbar-opacity\Program\LogicImplemenation\obj\Release\LogicImplemenation.pdb
