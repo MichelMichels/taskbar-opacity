@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskbarController.Core", "Taskbar.Core\TaskbarController.Core.csproj", "{5315D303-44C7-4919-9507-FDBE0DA6B708}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskbarController.Core", "TaskbarController.Core\TaskbarController.Core.csproj", "{5315D303-44C7-4919-9507-FDBE0DA6B708}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskbarController.UI", "..\Taskbar.Console\TaskbarController.UI.csproj", "{896FBEB1-EEF1-48DB-90DC-18D07CC3E428}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskbarController.UI", "TaskbarController.UI\TaskbarController.UI.csproj", "{896FBEB1-EEF1-48DB-90DC-18D07CC3E428}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

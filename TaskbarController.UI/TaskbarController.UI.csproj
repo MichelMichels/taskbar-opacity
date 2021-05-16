@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Program\Taskbar.Core\TaskbarController.Core.csproj" />
+    <ProjectReference Include="..\TaskbarController.Core\TaskbarController.Core.csproj" />
   </ItemGroup>
 
 </Project>
